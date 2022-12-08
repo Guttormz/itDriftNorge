@@ -1,0 +1,13 @@
+----------Pc informasjon---------- 
+Brukernavnet er: guttormz
+OS: Windows
+OS versjon: Windows-10-10.0.19044-SP0
+ 
+----------Diskplass informasjon---------- 
+Totalt: 237 GB
+Brukt: 94 GB
+Ubrukt: 143 GB
+ 
+----------IP informasjon---------- 
+IP adressen er: 172.26.64.1
+ 
