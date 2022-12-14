@@ -3,13 +3,17 @@ import shutil
 import os
 import socket
 
-fil = open('informasjon.txt', 'w')
 brukernavn = os.getlogin()
 Os = platform.system()
 OsVer = platform.platform()
 totalt, brukt, ubrukt = shutil.disk_usage("/")
 hostname = socket.gethostname()
 Ip = socket.gethostbyname(hostname)
+
+if FileExistsError == False:
+    file = open(hostname + ".txt", 'x')
+else:
+    fil = open(hostname + ".txt", 'w')
 
 fil.write("----------Pc informasjon---------- \n")
 fil.write("Brukernavnet er: " + brukernavn + "\n")
@@ -23,3 +27,5 @@ fil.write("Ubrukt: %d GB" % (ubrukt // (2**30)) + "\n \n")
 
 fil.write("----------IP informasjon---------- \n")
 fil.write("IP adressen er: " + Ip + "\n \n")
+
+fil.close()
